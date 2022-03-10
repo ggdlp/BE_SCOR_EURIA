@@ -192,7 +192,7 @@
           br(),
           br(),
           
-          withSpinner(plotOutput("plot_spline"),type=5)
+          withSpinner(plotOutput("plot_spline"),type=5),
           screenshotButton(label = "Capture plot",id= "screen_spline",filename = "Screenshot")
         ),
       )
