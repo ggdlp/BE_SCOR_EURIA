@@ -260,7 +260,7 @@ Model_pclm2D_data<- function(Dx,Ex, nlast, ci.level,activate_offset,min,max,kr,d
 }
 
 
-Model_spline(a,1,100,1,"fmm",F)$model
+
 Model_spline <- function(data, age.min, age.max, out.step, method = "fmm", delay_input = FALSE) {
   
   
